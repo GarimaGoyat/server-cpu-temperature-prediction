@@ -1,4 +1,3 @@
-
 # Server CPU Temperature Prediction
 
 ## 📌 Problem Statement
@@ -78,10 +77,22 @@ This project builds a supervised machine learning regression model to estimate C
 ├── README.md
 └── requirements.txt
 
-
 ## 🔮 Future Scope
-
 
 - Real-time server monitoring integration
 - Deep learning-based temperature prediction
 - Cloud deployment and API integration
+
+
+## 🚀 How to Run the Prediction System
+
+Since the trained model file (`.pkl`) exceeds GitHub's size limit, please follow these steps to run the AI on your local machine:
+
+1. **Activate Environment**:
+   `.\.venv\Scripts\Activate.ps1`
+2. **Install Libraries**:
+   `pip install -r requirements.txt`
+3. **Train the Model (Do this once)**:
+   Run `python src/train_model.py` to learn from the dataset and generate the local `server_temp_model.pkl` file.
+4. **Get Predictions**:
+   Run `python src/predict.py` to see the AI forecast server temperatures.
