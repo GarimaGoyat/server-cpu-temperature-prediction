@@ -108,4 +108,4 @@ Since the trained model file (`.pkl`) exceeds GitHub's size limit, please follow
 5. **Get Predictions**:
    Run `python src/predict.py` to see the AI forecast server temperatures.
 
-Screenshot: **Evaluation output screenshot is included** at `docs/model_accuracy_report.png` (already added). See `docs/results.md` and `docs/project_report.md` for the model metrics and evaluation details.
+Screenshot: Add an evaluation screenshot at `docs/screenshots/results.png` and it will be referenced from `docs/results.md`.
